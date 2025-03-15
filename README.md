@@ -48,12 +48,16 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
-Kemudian, buka file `analisis_data.ipynb` untuk mulai menjalankan analisis.
+Kemudian, buka file `notebook.ipynb` untuk mulai menjalankan analisis.
 
 ### 5. **Menjalankan Dashboard**
 Jika proyek ini memiliki dashboard yang perlu dijalankan, pastikan Anda berada di direktori yang sesuai, lalu jalankan perintah berikut:
 ```bash
 python "C:\Users\Lenovo\Documents\Program\Python\analisis data\dashboard.py"
+```
+### 6. **Run Streamlit Apps**
+```bash
+streamlit run dashboard.py
 ```
 
 ## 📈 Hasil Analisis
